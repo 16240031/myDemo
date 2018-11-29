@@ -1,0 +1,459 @@
+body,ul,p{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 1920px;
+}
+a:hover{
+	color: red;
+}
+/* ================= Header ==================*/
+
+header{
+	position: relative;
+	background-color: rgb(255, 255, 255);
+	height: 140px;
+}
+
+
+.logo{
+	margin-bottom: 18px;
+	margin-left: 405px;
+}
+
+
+.nav{
+	display: inline-block;
+	width: 528px;
+	height: 140px;
+	margin-left: 120px;
+}
+.tel{
+
+	height: 75px;
+	width: 528px;
+}
+.tel>p{
+	padding-top: 45px;
+	text-align: right;
+}
+.tel>p>span{
+	color: red;
+	font-size: 20px;
+}
+nav{
+	height: 65px;
+}
+nav>ul{
+	height: 41px;
+	padding-top: 24px;
+	list-style-type: none;
+}
+nav>ul>li{
+	text-align: center;
+	display: inline-block;
+	width: 84px;
+}
+nav>ul>li>a{
+	text-decoration: none;
+	color: rgb(150, 150, 150);
+}
+nav>ul>li>a:after{
+	margin-top: 17px;
+	content: "";
+	display: block;
+	width: 0%;
+	height: 3px;
+	background-color: #D10024;
+	-webkit-transition: 0.2s all;
+	transition: 0.2s all;
+}
+
+nav>ul>li>a:hover:after{
+	width: 100%;
+}
+.query{
+	width: 95px;
+	height: 110px;
+	background-color: rgb(1, 130, 190);
+	position: absolute;
+	left: 1360px;
+	top:0px;
+}
+
+.query span:first-child{
+
+	margin-top: 50px;
+}
+
+.query span{
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.query span a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+
+
+/*=============== section-banner =================*/
+
+
+/* =============== section-out-products ================== */
+.title{
+	text-align: center;
+	font-size: 12px;
+	padding-top: 80px;
+	padding-bottom: 45px;
+}
+
+.title p{
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.title hr{
+	display: inline-block;
+	width: 90px;
+	color: rgb(241, 241, 241);
+	font-weight: 900;
+}
+
+.title span{
+	margin: 0 8px;
+	line-height: 10px;
+	color: rgb(183, 183, 183);
+}
+
+
+
+.products{
+	padding-left: 404px;
+	height: 456px;
+	text-align: center;
+}
+
+.products>div{
+	width: 350px;
+	height: 376px;
+	display: inline-block;
+	background-color: rgb(243, 250, 253);
+	float: left;
+	margin-right: 28px;
+}
+
+.pro-container{
+	height: 90px;
+	padding-top: 60px;
+	
+}
+
+.pro-title{
+	padding-top: 35px;
+	padding-bottom: 30px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.pro-desc{
+	color: rgb(104, 105, 106);
+	font-size: 12px;
+	padding: 0 48px;
+}
+
+.tech-button{
+	padding-top: 50px;
+	height: 89px;
+	background-color: rgb(17, 179, 255)
+}
+
+.tech-button button{
+	color: rgb(255, 255, 255);
+	background-color: rgb(17, 179, 255);
+	width: 170px;
+	height: 50px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+/*================= section-about-us =================*/
+.about-us{
+	height: 623px;
+	background-image: url('img/about-us-bg.png');
+}
+
+.about-left{
+	display: inline-block;
+}
+
+
+.about-right{
+	display: inline-block;
+	width: 878px;
+	height: 458px;
+	float: right;
+	padding-top: 165px;
+	padding-left: 78px;
+}
+
+.about-right>p{
+	width: 500px;
+	padding-bottom: 35px;
+	color: rgb(255, 255, 255);
+}
+.b-tittle{
+/* 	width: 500px; */
+	padding-bottom: 35px;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+}
+
+/* .about-right p:first-child{
+	font-size: 20px;
+} */
+.b-tittle span{
+	color: rgb(102, 206, 255);
+}
+
+.about-button{
+	padding-top: 10px;
+}
+.about-button button{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 130, 190);
+	width: 170px;
+	height: 50px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+/*=============== section-news ===============*/
+.news{
+	height: 718px;
+}
+
+.news-container{
+	width: 1030px;
+	height: 375px;
+	margin: 0 auto;
+	background-image: url("img/news-bg.png");
+	padding:55px 40px 40px 40px ;
+
+}
+
+.n-video{
+	display: inline-block;
+	width: 415px;
+	height: 375px;
+
+}
+
+.hot-news{
+	width: 615px;
+	height: 375px;
+	float: right;
+	color: rgb(222, 241, 255);
+}
+
+#myTabhd{
+	list-style: none;
+}
+
+#myTabhd>li{
+	display: inline-block;
+	text-align: center;
+	width: 103px;
+	height: 32px;
+	border-radius: 3px;
+	line-height: 32px;
+}
+
+.active{
+	background-color: rgb(255, 255, 255);
+	color: rgb(200, 220, 220)
+}
+.none{
+	display: none;
+}
+
+.news_right_content{
+	width: 615px;
+	height: 343px;
+}
+
+.news_right_content ul{
+	list-style: none;
+
+}
+
+.news_right_content li{
+	display: block;
+	padding: 17px 0px;
+	border-bottom: 1px dashed rgb(255, 255, 255);
+}
+
+.arrow{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+#data{
+	display: inline-block;
+	float: right;
+}
+
+
+
+/*==================== section-agent ====================*/
+.agent{
+	height: 923px;
+	background-image: url('img/agent-bg.png');
+}
+
+.agent .title p{
+	color: rgb(255, 255, 255);
+}
+
+.show-agent{
+	padding-left: 405px;
+	height: 750px;
+}
+
+.agent-data{
+	display: inline-block;
+	width: 540px;
+	height: 241px;
+	margin-right: 30px;
+	margin-top: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+#agent-02,#agent-04{
+	float: left;
+}
+
+
+.agent-icon{
+	display: inline-block;
+	width: 160px;
+	height: 126px;
+	padding-top: 40px;
+	padding-bottom: 75px;
+	text-align: right;
+}
+
+.introduce{
+	color: rgb(130, 130, 130);
+	font-size: 14px;
+	padding-top: 40px;
+	float: right;
+	width: 310px;
+	height: 201px;
+	padding-right: 44px;
+}
+
+.introduce span{
+	color: red;
+}
+
+.agent-button{
+	padding-top: 54px;
+	padding-left: 468px;
+}
+.agent-button button{
+	color: rgb(255, 255, 255);
+	background-color: rgb(1, 130, 190);
+	width: 170px;
+	height: 50px;
+	border: 1px solid rgb(255, 255, 255);
+}
+
+
+
+/*====================== footer===================== */
+
+footer{
+	height: 616px;
+	/* background-color: rgb(240, 240, 240); */
+}
+
+.brand{
+	height: 210px;
+	padding-top: 100px;
+	padding-left: 390px;
+	border-bottom: 2px solid rgb(230, 230, 230);
+
+}
+
+.brand-img{
+	vertical-align: top;
+	display: inline-block;
+	padding-right: 80px;
+}
+
+.f-more{
+	height: 259px;
+	padding-top: 45px;
+	padding-left: 400px;
+}
+
+
+.wechat{
+	float: left;
+	width: 275px;
+	height: 259px;
+}
+
+.website{
+	float: left;
+	width: 275px;
+	height: 259px;
+
+}
+
+.link{
+	float: left;
+	width: 275px;
+	height: 259px;
+}
+
+.contact{
+	float: left;
+	width: 305px;
+	height: 259px;
+}
+
+.f-tittle{
+	color: rgb(85, 85, 85);
+	display: inline-block;
+	font-size: 16px;
+	padding-bottom: 23px;
+}
+
+.wechat div:nth-child(2){
+	margin-bottom: 16px;
+}
+
+.ul-sty{
+	list-style: none;
+	color: rgb(85, 85, 85);
+}
+
+.ul-sty>li{
+	display: block;
+	padding-bottom: 12px;
+}
+
+.ul-sty a{
+	text-decoration: none;
+	color: rgb(85, 85, 85);
+}
